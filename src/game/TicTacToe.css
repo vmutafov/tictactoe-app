@@ -1,0 +1,26 @@
+.game-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.game-board {
+    margin-top: -50px;
+	text-align: center;
+	transform:rotateX(65deg);
+}
+
+.game-cell {
+	width: 60px;
+	height: 60px;
+	border: 2px solid aqua;
+}
+
+.game-cell:hover {
+	background: #D3E3E8;
+}
+
+.game-cell:active {
+	background: #CFF4FF;
+}
